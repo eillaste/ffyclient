@@ -1,0 +1,206 @@
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+}
+
+
+/* Provide sufficient contrast against white background */
+
+a {
+    color: #0366d6;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+
+/* Sticky footer styles
+  -------------------------------------------------- */
+
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.border-top {
+    border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+    font-size: 1rem;
+    line-height: inherit;
+}
+
+
+/* Sticky footer styles
+  -------------------------------------------------- */
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px;
+    /* Vertically center the text there */
+}
+
+.modal-content{
+    padding: 20px;
+    width: 150%;
+}
+
+.recommended{
+    color:#8884d8;
+    font-weight: bold;
+}
+
+.today{
+    color:#82ca9d;
+    font-weight: bold;
+}
+
+.dangerous{
+    color: #D88783;
+    font-weight: bold;
+}
+
+.status{
+    color: #7ea7d8;
+    font-weight: bold;
+}
+
+.nutrition{
+
+        height: 100%;
+        /* width: 600px; */
+        width: 54%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        /* width: 50%; */
+        margin-top: 90px;
+        animation: fadein 2s;
+        -moz-animation: fadein 2s; /* Firefox */
+        -webkit-animation: fadein 2s; /* Safari and Chrome */
+        -o-animation: fadein 2s; /* Opera */
+}
+
+.customheader{
+    background-color: #5acac2!important;
+}
+
+.headertext{
+    color:white;
+    /* font-weight: bold; */
+}
+
+.text-dark{
+    color:white!important;
+}
+
+.btn-primary{
+    background-color: #5acac2!important;
+    border-color: #ffffff;
+}
+
+/* #test p {
+    margin-top: 25px;
+    font-size: 21px;
+    text-align: center;
+
+} */
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .nutrition{
+        height: 100%;
+        width: 90%;
+    }
+
+}
+
+.preview-img{
+    width:220px;
+    height:220px;
+    margin:10px;
+}
+
+.strongtext{
+    font-weight:500;
+}
+
+h1{
+    color: #888787!important;
+}
+
+.navbar-brand{
+    color:white!important;
+}
